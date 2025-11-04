@@ -43,7 +43,7 @@ CLERK_AUTH_PARTIES = ["..."]                # authorized parties per your Clerk 
 ---
 
 # From repo or project root (Windows)
->>> python manage.py migrate
+<pre>python manage.py migrate</pre>
 
 ---
 
@@ -180,8 +180,8 @@ Sample Django project (for local testing) is under [sdk/.]
 > Create a virtualenv, install dependencies
 > Configure environment vars (CLERK_SECRET_KEY etc.)
 
->>> python sdk/manage.py migrate
->>> python sdk/manage.py runserver 
+<pre> python sdk/manage.py migrate</pre>
+<pre> python sdk/manage.py runserver </pre>
 
 ## Files of interest
  - src/django_clerk_sdk/defaults.py
