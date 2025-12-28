@@ -1,2 +1,0 @@
-class RemovedInNextVersionWarning(DeprecationWarning):
-    pass
